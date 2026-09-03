@@ -8,15 +8,15 @@ if operator == "+" or operator == "-" or operator == "*" or operator == "/":
   farst_num = int(input("..."))
   second_num = int(input("..."))
   
-  #addison
+  # Addition
   if operator == "+":
     print(f"anser is {farst_num + second_num}")
     
-  #divison
+  # Subtraction
   elif operator == "-":
     print(f"anser is {farst_num - second_num}")
     
-  #maltificishon
+ # Multiplication
   elif operator == "*":
     print(f"anser is {farst_num * second_num}")
 
